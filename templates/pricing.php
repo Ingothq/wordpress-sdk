@@ -49,6 +49,9 @@
 		// Billing cycle.
 		'billing_cycle'  => fs_request_get( 'billing_cycle', WP_FS__PERIOD_ANNUALLY ),
 	) );
+
+	$query_params['custom_css'] = 'https://ingothq.com/static/pricing.css?version=' . rand();
+
 ?>
 
 	<div id="fs_pricing" class="wrap" style="margin: 0 0 -65px -20px;">
